@@ -1,0 +1,117 @@
+.news-section {
+  padding: 12rem 0;
+  background-color: #f5f5f5;
+}
+.news-section-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.news-section-card .single-card {
+  position: relative;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.125rem 0.25rem rgb(24 28 50 / 7%) !important;
+  background-color: #fff;
+  margin-top: 2.3rem;
+}
+.single-card img {
+  width: 100%;
+}
+.single-card h2 {
+  position: absolute;
+  right: 1rem;
+  top: 40%;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--bg-btn-color);
+  padding: 0.3rem 0.8rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.single-card-info {
+  padding: 2.3rem;
+}
+.single-card-info .admin-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.admin-date .admin-profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.admin-profile .profile-img {
+  width: 3.8rem;
+  height: 3.8rem;
+  margin-right: 1.2rem;
+  border: 1px solid black;
+  padding: 0.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.admin-profile img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.admin-profile span {
+  font-size: 1.18rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.admin-date span {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--grayPrimary);
+  font-weight: 400;
+}
+.admin-date span .MuiSvgIcon-root {
+  font-size: 1.45rem;
+  color: var(--text-secondary);
+  margin-right: 0.8rem;
+}
+.single-card-info h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+.single-card-info p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #777a88;
+  margin-bottom: 2rem;
+}
+.single-card-info > span {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 910px) {
+  .news-section-card .single-card {
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .single-card h2 {
+    top: 52%;
+  }
+}

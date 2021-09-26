@@ -1,0 +1,23 @@
+.contactus-section {
+  padding: 5rem 0;
+}
+.contuct-us-head {
+  flex-wrap: wrap;
+}
+.contuct-info h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.contuct-info p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: var(--text-secondary);
+}
+.contact-btn > .btn {
+  background-color: var(--primary-color);
+}
+@media screen and (max-width: 910px) {
+  .contact-btn {
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,32 @@
+export const news = [
+  {
+    id: 1,
+    img: "images/leatest-img/3.jpg",
+    proImg: "images/team-img/team-1.jpg",
+    placement: "Admin",
+    profesion: "SEO, Analytics",
+    date: "15 March 2020",
+    title: "Holisticly promote enabled",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    id: 2,
+    img: "images/leatest-img/2.jpg",
+    proImg: "images/team-img/team-4.jpg",
+    placement: "Writer",
+    profesion: "Marketing",
+    date: "15 March 2020",
+    title: "Authoritatively unleash fully",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    id: 3,
+    img: "images/leatest-img/1.jpg",
+    proImg: "images/team-img/team-6.jpg",
+    placement: "Joe B",
+    profesion: "Business",
+    date: "15 March 2020",
+    title: "We partnered up with Google",
+    desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+];

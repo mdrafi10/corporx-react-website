@@ -1,0 +1,68 @@
+.provide-section {
+  background-color: #f5f5f5;
+  padding: 12rem 0;
+}
+
+.provide-service-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-provide-service {
+  max-width: 555px;
+
+  background-color: #fff;
+  margin-top: 2.8rem;
+  padding: 4.5rem 4rem;
+  display: flex;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgb(24 28 50 / 7%) !important;
+}
+.single-provide-service .mike-icon {
+  font-size: 6rem;
+  margin-right: 1.7rem;
+  color: rgb(248, 36, 36);
+}
+.provide-info h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.001rem;
+  margin-bottom: 1rem;
+}
+.provide-info p {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.9rem;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+span .MuiSvgIcon-root {
+  font-size: 1.8rem;
+  margin-left: -0.4rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.provide-info span:hover {
+  color: rgb(248, 36, 36);
+}
+.read-more:hover .MuiSvgIcon-root {
+  margin-left: 0.7rem !important;
+}

@@ -1,0 +1,113 @@
+.promo-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -10rem;
+}
+.promo-content .single-promo-content {
+  width: 36rem;
+  height: 27rem;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.bg-img img {
+  margin-top: 27rem;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.bg-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 27rem;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(
+    75deg,
+    rgb(26 44 121 / 58%),
+    rgb(232 5 102 / 48%)
+  );
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.bg-img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 27rem;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(
+    54deg,
+    rgb(26 44 121 / 72%),
+    rgb(232 5 102 / 56%)
+  );
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.single-promo-content:hover .bg-img > img {
+  margin-top: 0rem;
+  opacity: 1;
+}
+.single-promo-content:hover .bg-img::before {
+  top: 0rem;
+}
+.single-promo-content:hover .bg-img::after {
+  top: 0rem;
+}
+.single-promo-content:hover .info > .icon,
+.single-promo-content:hover .info h2,
+.single-promo-content:hover .info p {
+  color: #fff;
+}
+.single-promo-content .info {
+  position: absolute;
+  top: 0;
+  padding: 4.5rem 5rem;
+  z-index: 10;
+}
+.single-promo-content .icon {
+  font-size: 5.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+}
+.single-promo-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.single-promo-content p {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+@media screen and (max-width: 900px) {
+  .promo-content .single-promo-content {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}

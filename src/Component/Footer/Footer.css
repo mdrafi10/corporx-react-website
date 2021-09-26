@@ -1,0 +1,107 @@
+.footer {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.footer-top {
+  padding: 10rem 0;
+}
+.footer-top-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.corporx-logo-info {
+  max-width: 400px;
+}
+.corporx-logo-info p {
+  font-size: 1.6rem;
+  color: rgb(183, 176, 202);
+  margin-top: 2.3rem;
+  margin-bottom: 3rem;
+}
+.corporx-logo-info .contact-logo {
+  display: flex;
+}
+.contact-logo .icon-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.contact-logo .icon-logo .MuiSvgIcon-root {
+  font-size: 1.7rem;
+}
+.contact-logo .face {
+  background-color: #395693;
+}
+.contact-logo .twit {
+  background-color: #1c9be9;
+}
+.contact-logo .you {
+  background-color: #c61f1e;
+}
+.contact-logo .insta {
+  background-color: #e34a85;
+}
+.corporx-buildup-company {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap !important;
+}
+.company h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.company ul li {
+  font-size: 1.38rem;
+  font-weight: 600;
+  color: rgb(132, 127, 180);
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.company ul li:hover {
+  color: #fff;
+}
+@media screen and (max-width: 910px) {
+  .corporx-logo-info {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2.5rem;
+  }
+  .contact-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer-bottom {
+  padding: 3rem 0;
+  border-top: 1px solid rgb(50, 50, 165);
+}
+.bottom-container {
+  text-align: center;
+}
+.bottom-container h2 {
+  color: rgb(180, 185, 190);
+  font-weight: 400;
+}
+.bottom-container h2 .theme {
+  font-size: 1.2rem;
+  color: rgb(105, 133, 160);
+}
