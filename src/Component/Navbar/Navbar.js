@@ -21,7 +21,9 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", nav);
-    // window.removeEventListener("scroll", nav);
+    return () => {
+      window.removeEventListener("scroll", nav);
+    };
   }, []);
   return (
     <header>
