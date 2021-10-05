@@ -68,6 +68,11 @@
     max-width: 17rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .single-qulite-worker {
+    max-width: 16rem;
+  }
+}
 .single-qulite-worker .work-content {
   background: linear-gradient(81deg, #1a2c79c7, #e80566db);
   position: absolute;
